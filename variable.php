@@ -13,7 +13,7 @@ elseif (!$has_pvc) {
 echo "Sorry, voter must have a PVC (Permanent Voter's Card) to be eligible to vote.";
 } 
 // Check if voter's ward is 020
-elseif ($voter_ward !== "012") {
+elseif ($voter_ward !== "020") {
 echo "Sorry, voter must be registered to vote in ward 020 to be eligible to vote.";
 } 
 // All checks pass, voter is eligible to vote
